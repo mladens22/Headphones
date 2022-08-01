@@ -1,0 +1,598 @@
+$color_1: #656565;
+$color_2: #FFC107;
+$color_3: #CCCCCC;
+$color_4: #231F20;
+$color_5: #FF9300;
+$color_6: #9C9C9C;
+$color_7: #4B4B4B;
+$color_8: #FFFFFF;
+$color_9: #000000;
+$background-color_1: #DFE3EB;
+$home_img: url('img/IHAVE_b85acf60-bcdc-44cf-a63c-62852b15a60a.png');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.first-section {
+	width: auto;
+	height: auto;
+	background: linear-gradient(to left, #EBEFF7 70%, #DFE3EB 50%);
+}
+.img {
+	background: $home_img;
+	width: 199px;
+	height: 50px;
+	margin-top: 38px;
+}
+.icon1 {
+	background: transparent url('img/surface1.png') 0% 0% no-repeat padding-box;
+	width: 24px;
+	height: 24px;
+	margin: 53px 0 0 288px;
+}
+.icon2 {
+	background: transparent url('img/shopping-cart.png') 0% 0% no-repeat padding-box;
+	width: 24px;
+	height: 23px;
+	margin: 52px 0 0 32.4px;
+}
+.icon3 {
+	background: transparent url('img/Group 11.png') 0% 0% no-repeat padding-box;
+	width: 24px;
+	height: 17px;
+	margin: 56.5px 0 0 32.5px;
+}
+header {
+	display: flex;
+	align-items: flex-end;
+	margin-left: 142px;
+}
+.nav {
+	list-style-type: none;
+	display: flex;
+	font: normal normal 18px/27px 'Roboto';
+	font-weight: 500;
+	letter-spacing: 0.72px;
+	color: $color_1;
+	gap: 48px;
+	margin: 57px 0 0 359px;
+	cursor: pointer;
+}
+.container {
+	padding-left: 142px;
+	padding-right: 141px;
+	display: grid;
+	grid-template-columns: 0fr 1fr 1fr 1fr;
+}
+.img1 {
+	background: transparent url('img/Group 23.png') 0% 0% no-repeat padding-box;
+	width: 118px;
+	height: 118px;
+	margin-top: 122px;
+}
+.img2 {
+	background: transparent url('img/Mask Group 4.png') 0% 0% no-repeat padding-box;
+	width: 118px;
+	height: 118px;
+	margin-top: 40px;
+}
+.img3 {
+	background: transparent url('img/Mask Group 3.png') 0% 0% no-repeat padding-box;
+	width: 118px;
+	height: 118px;
+	margin-top: 40px;
+}
+.img4 {
+	background: transparent url('img/Mask Group 2.png') 0% 0% no-repeat padding-box;
+	width: 118px;
+	height: 118px;
+	margin-top: 40px;
+}
+.pictures {
+	display: block;
+	list-style-type: none;
+}
+.main-img {
+	background: transparent url('img/Mask Group 6.png') 0% 0% no-repeat padding-box;
+	width: 563px;
+	height: 696px;
+	margin: 91px 0 0 17px;
+}
+.description {
+	margin-top: 120px;
+	margin-left: 194px;
+}
+.star {
+	color: $color_2;
+}
+.last-star {
+	color: $color_3;
+}
+.title {
+	font: normal normal 64px/94px 'Oswald';
+	font-weight: 500;
+	color: $color_4;
+	width: 534px;
+}
+.under-title {
+	text-align: left;
+	font: normal normal normal 18px/27px 'Roboto';
+	color: $color_1;
+	width: 522px;
+	margin-top: 8px;
+}
+.prize-and-counter {
+	display: flex;
+	align-self: center;
+	gap: 50px;
+	align-items: center;
+	margin-top: 48px;
+	p {
+		align-self: center;
+		font: normal normal 300 50px/74px 'Oswald';
+		color: $color_5;
+	}
+}
+.counter {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid #9C9C9C;
+	border-radius: 8px;
+	width: 133px;
+	cursor: pointer;
+	height: 50px;
+}
+.minus {
+	font: normal normal 28px/41px 'Oswald';
+	font-weight: 500;
+	color: $color_6;
+}
+.number {
+	font: normal normal 24px/36px 'Oswald';
+	font-weight: 500;
+	color: $color_7;
+}
+.plus {
+	font: normal normal 28px/41px 'Oswald';
+	font-weight: 500;
+	color: $color_6;
+}
+.kupi {
+	font: normal normal 24px/29px 'Roboto';
+	font-weight: 700;
+	letter-spacing: 1.44px;
+	color: $color_8;
+	background: #FF9300 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 4px #00000029;
+	border-radius: 8px;
+	width: 213px;
+	height: 61px;
+	border: none;
+	margin-top: 49px;
+	cursor: pointer;
+}
+.dodaj {
+	width: 247px;
+	height: 61px;
+	box-shadow: 0px 2px 6px #00000029;
+	border: 2px solid #FF9300;
+	border-radius: 8px;
+	font: normal normal 24px/29px 'Roboto';
+	font-weight: 700;
+	letter-spacing: 1.44px;
+	color: $color_5;
+	margin-left: 24px;
+	margin-top: 61px;
+	cursor: pointer;
+}
+.icon-text {
+	display: flex;
+	gap: 8px;
+	margin-top: 32px;
+	align-items: center;
+	p {
+		font: normal normal 16px/27px 'Roboto';
+		font-weight: 500;
+		color: $color_1;
+		margin-left: 8px;
+	}
+}
+.head {
+	background: transparent url('img/user.svg') 0% 0% no-repeat padding-box;
+	width: 13px;
+	height: 16px;
+}
+.shield {
+	background: transparent url('img/surface1.svg') 0% 0% no-repeat padding-box;
+	width: 14px;
+	height: 16px;
+}
+.icon-text2 {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	margin-top: 14px;
+	p {
+		font: normal normal 16px/27px 'Roboto';
+		font-weight: 500;
+		color: $color_1;
+		margin-left: 8px;
+	}
+}
+.social-media-links {
+	justify-self: end;
+	align-self: center;
+	margin-bottom: 148px;
+	margin-top: 171.4px;
+}
+.facebook {
+	background: transparent url('img/Group 24.svg') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 40px;
+}
+.insta {
+	background: transparent url('img/Group 25.svg') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 40px;
+	margin-top: 12px;
+}
+.linkedin {
+	background: transparent url('img/Group 26.svg') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 40px;
+	margin-top: 12px;
+}
+.headphones {
+	background: transparent url('img/Mask Group 7.png') 0% 0% no-repeat padding-box;
+	height: 885px;
+	position: relative;
+}
+.titles {
+	display: flex;
+	padding: 269px 0 0 198px;
+	gap: 145px;
+}
+.first-title {
+	font: normal normal 24px/27px 'Oswald';
+	font-weight: 500;
+	letter-spacing: 0.96px;
+	color: $color_9;
+	cursor: pointer;
+}
+.second-title {
+	font: normal normal 24px/27px 'Oswald';
+	font-weight: 500;
+	letter-spacing: 0.96px;
+	color: $color_9;
+	cursor: pointer;
+}
+.third-title {
+	font: normal normal 24px/27px 'Oswald';
+	font-weight: 500;
+	letter-spacing: 0.96px;
+	color: $color_9;
+	cursor: pointer;
+}
+hr {
+	position: absolute;
+	top: 325px;
+	left: 174px;
+	width: 606px;
+	height: 1px;
+	border: none;
+	background: #656565 0% 0% no-repeat padding-box;
+}
+.container2 {
+	margin: 57px 0 0 174px;
+}
+.first-p {
+	max-width: 578px;
+	font: normal normal normal 18px/27px 'Roboto';
+	color: $color_1;
+}
+.second-p {
+	max-width: 578px;
+	font: normal normal normal 18px/27px 'Roboto';
+	color: $color_1;
+	margin: 30px 0 24px 0;
+}
+.third-p {
+	max-width: 578px;
+	font: normal normal normal 18px/27px 'Roboto';
+	color: $color_1;
+}
+.woman-headphones {
+	background: transparent url('img/Mask Group 13.png') 0% 0% no-repeat padding-box;
+	height: 887px;
+	width: auto;
+}
+.iskoristi {
+	width: 560px;
+	height: 134px;
+	text-align: left;
+	font: normal normal 50px/60px 'Oswald';
+	font-weight: 500;
+	color: $color_9;
+	padding-top: 249px;
+	margin: 0 326px 0 1034px;
+}
+.lorem {
+	width: 578px;
+	height: 130px;
+	font: normal normal normal 18px/27px 'Roboto';
+	color: $color_1;
+	margin: 158px 326px 0 1034px;
+}
+.btn-woman-pic {
+	margin: 0 34px 0 1035px;
+}
+.fourth-page {
+	width: auto;
+	height: auto;
+	background: #EBEFF7 0% 0% no-repeat padding-box;
+	h1 {
+		font: normal normal 50px/74px 'Oswald';
+		font-weight: 500;
+		color: $color_9;
+		padding-top: 128px;
+		margin: 0 782px 0 782px;
+		width: 355px;
+		height: 74px;
+	}
+}
+.first-headphone {
+	width: 394px;
+	height: 394px;
+	background: transparent url('img/Mask Group 8.png') 0% 0% no-repeat padding-box;
+}
+.second-headphone {
+	width: 394px;
+	height: 394px;
+	background: transparent url('img/Mask Group 9.png') 0% 0% no-repeat padding-box;
+}
+.third-headphone {
+	width: 394px;
+	height: 394px;
+	background: transparent url('img/Mask Group 10.png') 0% 0% no-repeat padding-box;
+}
+.fourth-headphone {
+	width: 394px;
+	height: 394px;
+	background: transparent url('img/Mask Group 11.png') 0% 0% no-repeat padding-box;
+}
+.slike {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	padding: 64px 142px 110px 141px;
+	column-gap: 20px;
+}
+.prize {
+	text-align: center;
+	font: normal normal 200 50px/74px 'Oswald';
+	color: $color_5;
+}
+.name {
+	text-align: center;
+	font: normal normal 36px/53px 'Oswald';
+	font-weight: 500;
+	color: $color_9;
+	padding: 24px 0 16px 0;
+}
+.fourth-page-p {
+	text-align: center;
+	font: normal normal normal 18px/27px 'Roboto';
+	color: $color_1;
+	width: 596px;
+	height: 49px;
+	margin: 92px 661px 0 661px;
+}
+.fifth-page {
+	width: auto;
+	height: auto;
+	background: #DFE3EB 0% 0% no-repeat padding-box;
+}
+.fifth-page-title {
+	font: normal normal 50px/74px 'Oswald';
+	font-weight: 500;
+	color: $color_9;
+	padding: 128px 727px 0 757px;
+	height: 148px;
+}
+.pic-form {
+	display: flex;
+	gap: 20px;
+}
+.pic {
+	width: 670px;
+	height: 670px;
+	background: transparent url('img/Mask Group 12.png') 0% 0% no-repeat padding-box;
+	margin: 293px 0 213px 280px;
+}
+.forma {
+	display: flex;
+	flex-direction: column;
+	margin-top: 244px;
+}
+label {
+	text-align: left;
+	font: normal normal 18px/22px 'Roboto';
+	font-weight: 500;
+	color: $color_1;
+}
+input {
+	border: 1px solid #939FB8;
+	border-radius: 4px;
+	background-color: $background-color_1;
+	width: 394px;
+	height: 50px;
+	margin: 4px 556px 20px 0;
+	&:nth-child(12) {
+		width: 394px;
+		height: 162px;
+	}
+}
+form {
+	button {
+		width: 394px;
+		height: 61px;
+		background: #FF9300 0% 0% no-repeat padding-box;
+		box-shadow: 0px 2px 4px #00000029;
+		border-radius: 8px;
+		font: normal normal 24px/29px 'Roboto';
+		font-weight: 700;
+		letter-spacing: 1.44px;
+		color: $color_8;
+		border: none;
+		margin-top: 19px;
+	}
+}
+.icon-and-text {
+	display: flex;
+	gap: 12.38px;
+	padding-top: 16px;
+	padding-left: 113px;
+}
+.icon {
+	width: 14px;
+	height: 16px;
+	background: transparent url('img/surface1.svg') 0% 0% no-repeat padding-box;
+}
+.form-text {
+	font: normal normal 16px/19px 'Roboto';
+	font-weight: 500;
+	color: $color_1;
+}
+.sixth-page {
+	height: auto;
+	width: auto;
+	background: #EBEFF7 0% 0% no-repeat padding-box;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	position: relative;
+}
+.kontakt-i-podrska {
+	padding: 132px 300px 130px 142px;
+	h1 {
+		font: normal normal 18px/22px 'Roboto';
+		font-weight: 500;
+		letter-spacing: 0px;
+		color: $color_1;
+	}
+	p {
+		margin-top: 16px;
+	}
+}
+.o-nama {
+	h1 {
+		font: normal normal 18px/22px 'Roboto';
+		font-weight: 500;
+		letter-spacing: 0px;
+		color: $color_1;
+	}
+	padding: 132px 128px 202px 0;
+	p {
+		font: normal normal normal 18px/22px 'Roboto';
+		color: $color_1;
+		margin-top: 16px;
+	}
+}
+.pomoc {
+	h1 {
+		font: normal normal 18px/22px 'Roboto';
+		font-weight: 500;
+		letter-spacing: 0px;
+		color: $color_1;
+	}
+	p {
+		font: normal normal normal 18px/22px 'Roboto';
+		color: $color_1;
+		margin-top: 16px;
+	}
+	padding: 132px 165px 202px 0;
+}
+.socijalne-mreze {
+	h1 {
+		font: normal normal 18px/22px 'Roboto';
+		font-weight: 500;
+		letter-spacing: 0px;
+		color: $color_1;
+	}
+	padding: 132px 425px 202px 0;
+}
+.adresa {
+	font: normal normal normal 18px/22px 'Roboto';
+	color: $color_1;
+}
+.email {
+	font: normal normal normal 18px/22px 'Roboto';
+	color: $color_1;
+}
+.skype {
+	font: normal normal normal 18px/22px 'Roboto';
+	color: $color_1;
+}
+.headphone-icon {
+	background: transparent url('img/headphones.png') 0% 0% no-repeat padding-box;
+	width: 40px;
+	height: 40px;
+	margin-top: 32px !important;
+}
+.pozovite {
+	position: absolute;
+	left: 190px;
+	top: 302px;
+	font: normal normal normal 12px/14px 'Roboto';
+	color: $color_1;
+	margin-top: 0 !important;
+	margin-bottom: 4px;
+}
+.broj {
+	position: absolute;
+	left: 190px;
+	top: 320px;
+	font: normal normal 18px/22px 'Roboto';
+	font-weight: 700;
+	color: $color_1;
+	margin-top: 0 !important;
+}
+.fb {
+	width: 24px;
+	height: 24px;
+	background: transparent url('img/Group 17.png') 0% 0% no-repeat padding-box;
+}
+.ig {
+	width: 24px;
+	height: 24px;
+	background: transparent url('img/Group 18.png') 0% 0% no-repeat padding-box;
+}
+.in {
+	width: 24px;
+	height: 24px;
+	background: transparent url('img/Group 19.png') 0% 0% no-repeat padding-box;
+}
+.linkovi {
+	display: flex;
+	gap: 8px;
+	margin: 16px 0 44px 0;
+}
+.end-logo {
+	width: 119px;
+	height: 30px;
+	background: transparent url('img/IHAVE_b85acf60-bcdc-44cf-a63c-62852b15a60a1.png') 0% 0% no-repeat padding-box;
+}
+footer {
+	width: auto;
+	height: auto;
+	background: #DFE3EB 0% 0% no-repeat padding-box;
+	padding: 40px 0 40px 141px;
+	span {
+		font: normal normal normal 18px/22px 'Roboto';
+		color: $color_1;
+	}
+}
+.nenasal {
+	font-weight: 500;
+}
